@@ -1,0 +1,178 @@
+/*DOCUMENTO CSS*/
+
+/*Seccion para margen y espaciado general de la pagina*/
+*{  margin: 0;
+    padding: 0;}
+
+/*Modificacion del logo*/
+.logo{ width: 100px;}
+
+.logo img{width: 100%;
+        display: block;}
+
+/*Modificaciones para la cabecera*/    
+.nav-item{ font-family: "Patua One", serif;
+           font-weight: 400;
+           font-style: normal;
+           font-size: 18px;}
+
+.inicio{width: 100%;
+        padding-bottom: 30px;}
+
+/*Modificaciones para los titulos y parrafos*/
+h1{background: rgb(255, 0, 162);
+        color: aliceblue;
+        font-family: "Marcellus", serif;
+        font-weight: 800;
+        font-style: bold;
+        text-align: center;
+        font-size: 25px;
+        font-optical-sizing: auto;
+        padding: 15px 0px 15px 0px;}
+
+h2{font-family: "Marcellus", serif;
+        font-weight: 800;
+        font-style: bold;
+        text-align: center;
+        padding: 20px 0px 10px 0px;
+        font-size: 25px;
+        font-optical-sizing: auto;
+        color: rgb(255, 255, 255);
+        background: rgb(141, 235, 0);}
+
+h4{font-family: "Marcellus", serif;
+        font-weight: 600;
+        font-style: bold;
+        text-align: center;
+        font-size: 22px;
+        font-optical-sizing: auto;
+        padding: 10px 0px 0px 0px;}
+
+form{padding-bottom: 20px;}
+
+
+h5{font-family: "Marcellus", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 15px;
+        font-optical-sizing: auto;
+        padding: 0px 10px 10px 10px;}
+
+h3{font-family: "Marcellus", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 15px;
+        font-optical-sizing: auto;
+        padding: 5px 15px 10px 15px;}
+
+h6{font-family: "Marcellus", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 16px;
+        color: rgb(255, 0, 162);
+        font-optical-sizing: auto;
+        padding: 0px 10px 5px 10px;}
+
+p{text-align: center;
+        font-size: 15px;
+        font-optical-sizing: auto;
+        color: rgb(169, 169, 169);}
+
+/*Para modificar las divisiones de las secciones*/
+.items img{width: 100%;
+        padding: 10px 10px 5px 10px;}
+
+.items{padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: 2px solid rgb(214, 214, 214);}
+
+.d-flex{padding: 0px 15px 25px 25px;}
+
+/*Mondificaciones para los botones*/
+.btn{margin: auto;
+        width: 125px;
+        text-align: center;}
+
+/*Modificaciones al pie de pagina*/
+footer{padding: 10px 15px 10px 15px;}
+
+.x{padding-top: 10px;}
+
+/*Adaptaciones a diferentes pantallas*/
+@media only screen and (min-width:768px){
+/*Modifica las divisiones*/
+.d-flex{padding: 0px 50px 25px 350px;}
+
+/*Modifica las letras*/
+.nav-item{font-size: 20px;}
+
+h1{font-size: 28px;}
+
+.nav-item{font-size: 20px;}
+
+h2{font-size: 28px;}
+
+h3{font-size: 13px;}
+
+h4{font-size: 20px;
+   padding-top: 20px;}
+
+h5{font-size: 15px;
+        padding-top: 0px;
+        padding-bottom: 15px;}
+
+h6{font-size: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;}
+
+p{font-size: 15px;
+   padding-top: 10px;
+   padding-bottom: 15px;}
+
+/*Modifica las imagenes*/
+.items img{height: 220px;}
+
+.inicio{width: 100%;}
+
+footer{padding: 10px 15px 350px 15px;}
+
+}
+
+@media only screen and (min-width:1280px){                
+/*Modifica las letras*/
+h1{font-size: 38px;}
+
+.nav-item{font-size: 25px;}
+
+h2{font-size: 38px;}
+
+h3{font-size: 17px;}
+
+h4{font-size: 25px;}
+
+h5{font-size: 18px;
+   padding-top: 0px;
+   padding-bottom: 20px;}
+
+h6{font-size: 18px;
+        padding-top: 10px;}
+
+p{font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;}
+        
+/*Modifica las imagenes*/
+.items img{height: 350px;}
+        
+.inicio{width: 100%;
+        height: 300px;}
+
+/*Modifica el pie de pagina*/
+footer{padding: 10px 15px 150px 15px;}
+
+.d-flex{padding: 0px 100px 25px 900px;}
+
+}
